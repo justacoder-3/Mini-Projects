@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #f4e4ba;
+}
+
+#container{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    min-width: 45vh;
+}
+
+.no1,.no2{
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.flags{
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+}
+
+.flag1,.flag2{
+    height: 40px;
+}
+
+.btn{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.amt{
+    font-size: large;
+}
+
+.inp{
+    padding: 5px;
+}
+
+.currencyName{
+    font-size: large;
+}
