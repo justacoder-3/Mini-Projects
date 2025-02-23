@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Currency Converter</title>
+</head>
+<body>
+    <form action="" id="container">
+        <h1>Currency Converter:</h1>
+        <br>
+        <div class="options">
+        <label for="currencyName" class="currencyName">Choose the Currency:</label>
+        <br><br>
+        <div style="display: inline-block;">
+            <div class="no1">
+                <img class="flag1" src="https://flagsapi.com/IN/flat/64.png">
+                <select name="currency1" id="currencyName" class="flags">
+                </select>
+            </div>
+        </div>
+        <label style="padding: 50px; font-size: large;" for="to">to</label>
+        <div style="display: inline-block;">
+            <div class="no2">
+                <img class="flag2" src="https://flagsapi.com/US/flat/64.png">
+                <select name="currency2" id="to" class="flags">
+                </select>
+            </div>
+        </div>
+        <br><br>
+        <p>1 INR(₹) = 0.012 USD($)</p>
+        <br>
+        </div>
+        <div>
+            <label for="amt" class="amt">Enter the amount: </label>
+            <input type="number" name="amt" class="inp" id="amt">
+            <br>
+            <button class="btn">Get Exchange Rate</button>
+        </div>
+        <h3>Your amount after conversion is: </h3>
+    </form>
+    <script src="codes.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
